@@ -1,0 +1,113 @@
+.swiper-slide img{
+  width: 100%;
+  height: 80vh;
+}
+
+.title{
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, 'MS PGothic', sans-serif;
+
+  font-size: 50px;
+  color: #a88f55;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  z-index: 3;
+}
+
+a{
+  color: #a88f55;
+}
+
+.btn{
+  background-color: #b4a285;
+  transition: all 1s ease;
+  border: #b4a285;
+  
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 213, 12, 0.616);
+  color:  #c9bb9ca4;
+
+}
+
+.btn:hover{
+  background-color: #c9bb9ca4;
+}
+
+.swiper-container{
+  position: relative;
+  z-index: 0;
+}
+
+.swiper-pagination-bullet-active{
+  background: #a88f55;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+#media {
+  min-width: 120px;
+}
+
+.bg img{
+  height: 100%;
+  width:  100%; 
+ 
+}
+
+.badge{
+
+  font-size: 30px;
+  background-color:  #a88f55;
+  margin-top:10px;
+  margin-left: 10px;
+  color: white;
+
+}
+
+.badge:hover{
+  background-color:  #c9bb9ca4;
+  color: white;
+
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* lightbox */
+#over{
+
+  position: fixed;
+
+  top: 0;
+
+  width: 100%;
+
+  height: 100vh;
+
+  background-color: rgba(255, 255, 255, 0.411);
+
+  text-align: center;
+
+  
+
+}
+
+.lightbox{
+
+  position: relative;
+
+  margin-top: 3%;
+
+  display: inline-block;
+ 
+}
+
+
